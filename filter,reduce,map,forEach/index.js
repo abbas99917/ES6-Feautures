@@ -61,3 +61,27 @@
 //     }
 // })
 // console.log(newr)
+
+
+// reduce methods
+
+
+// let arr = [1,2,3,4,5]
+
+// let total = arr.reduce((acc,item)=>{
+//     return acc + item;
+// })
+// console.log(total)
+
+
+let shopingCart  = [
+    {productNAME: "LAPTOP",price: 342},
+    {productNAME: "mobilr",price: 142},
+    {productNAME: "mouse",price: 542},
+    {productNAME: "speakers",price: 442},
+]
+
+let finalPrice = shopingCart.reduce((acc,item)=>{
+    return acc+item.price;
+},0) // 0 is initialvalue of accu ||   item represent single product in shopoinpcart
+console.log(finalPrice)
