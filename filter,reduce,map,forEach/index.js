@@ -74,14 +74,41 @@
 // console.log(total)
 
 
-let shopingCart  = [
-    {productNAME: "LAPTOP",price: 342},
-    {productNAME: "mobilr",price: 142},
-    {productNAME: "mouse",price: 542},
-    {productNAME: "speakers",price: 442},
-]
+// let shopingCart  = [
+//     {productNAME: "LAPTOP",price: 342},
+//     {productNAME: "mobilr",price: 142},
+//     {productNAME: "mouse",price: 542},
+//     {productNAME: "speakers",price: 442},
+// ]
 
-let finalPrice = shopingCart.reduce((acc,item)=>{
-    return acc+item.price;
-},0) // 0 is initialvalue of accu ||   item represent single product in shopoinpcart
-console.log(finalPrice)
+// let finalPrice = shopingCart.reduce((acc,item)=>{
+//     return acc+item.price;
+// },0) // 0 is initialvalue of accu ||   item represent single product in shopoinpcart
+// console.log(finalPrice)
+
+// find methods in javascirpt
+ let fruits = ["apple","manog","banana","peach"]
+
+ let fr = fruits.find((cur)=>{
+return console.log(cur)
+   
+ 
+ })
+ console.log(fr)
+
+ let obj = [
+   { name: "ali",
+    age: 78,
+    id: 2},
+   { name: "umair",
+    age: 18,
+    id: 1},
+   { name: "huzaifa",
+    age: 28,
+    id: 3}
+ ]
+
+ let result = obj.find((cur)=>{
+    return cur.id === 2
+ })
+ console.log(result)
