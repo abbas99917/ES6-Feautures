@@ -43,48 +43,53 @@
 
 // let obj2 = {
 //     ...obj,
-//     city: "peshawar"
-// }
-// console.log(obj2)
+// //     city: "peshawar"
+// // }
+// // console.log(obj2)
 
 
-// // rest operators
-// // Multiple values ko collect karke ek array mein rakhna.
+// // // rest operators
+// // // Multiple values ko collect karke ek array mein rakhna.
 
-// function add(...number){
-//     console.log(typeof number)
+// // function add(...number){
+// //     console.log(typeof number)
 
-// }
-// add(1,2,3,4,5,6)
+// // }
+// // add(1,2,3,4,5,6)
 
-// perform calculations
+// // perform calculations
 
-// function add(...number){
-//     let total = 0 
-//     number.forEach((num)=>{
-//         total += num
-//     })
-//     console.log(total)
-// }
-// add(1,2,3,4,5)
-
-
-// function sum(...number){
-//     let total = 0
-//     number.forEach((num)=>{
-//         total += num
-//     })
-//     console.log(total)
-// }
-// sum(1,2,3,4,5,6,7,8,9,10) // 55
+// // function add(...number){
+// //     let total = 0 
+// //     number.forEach((num)=>{
+// //         total += num
+// //     })
+// //     console.log(total)
+// // }
+// // add(1,2,3,4,5)
 
 
-// project 
-const arr1 = [1, 2, 3, 4];
-const arr2 = [3, 4, 5, 6];
+// // function sum(...number){
+// //     let total = 0
+// //     number.forEach((num)=>{
+// //         total += num
+// //     })
+// //     console.log(total)
+// // }
+// // sum(1,2,3,4,5,6,7,8,9,10) // 55
 
-let arr3 = [...arr1,...arr2]
-console.log(arr3)
-// REMOVE DUBLICATE VALUE FROM THE ARRAYS
-let uniqueArr = [...new Set(arr3)]
-console.log(uniqueArr)
+
+// // project 
+// const arr1 = [1, 2, 3, 4];
+// const arr2 = [3, 4, 5, 6];
+
+// let arr3 = [...arr1,...arr2]
+// console.log(arr3)
+// // REMOVE DUBLICATE VALUE FROM THE ARRAYS
+// let uniqueArr = [...new Set(arr3)]
+// console.log(uniqueArr)
+
+const  array = ["peach","mango","peach","grapes"];
+const [one,two,three] = array
+console.log(one)
+
