@@ -90,6 +90,23 @@
 // console.log(uniqueArr)
 
 const  array = ["peach","mango","peach","grapes"];
-const [one,two,three] = array
-console.log(one)
+const [one,two,three, ] = array
+console.log()
 
+const stdRecord = {
+    name: 'abdul wali',
+    age: 43,
+    marks: 864,
+    isPassed: true,
+
+}
+
+const secondRecord = {
+    ...stdRecord,
+    city: "peshawar"
+}
+// console.log(secondRecord)
+
+const  {name,age,city} = stdRecord
+
+console.log(city)
