@@ -102,7 +102,7 @@ const stdRecord = {
 }
 
 const secondRecord = {
-    ...stdRecord,
+    ...stdRecord, // cannot change stdrecord just add
     city: "peshawar"
 }
 // console.log(secondRecord)
